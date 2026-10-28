@@ -1,0 +1,14 @@
+# 大模型 / 转换中间产物
+onnx/*.onnx
+onnx/*.rknn
+onnx/_decoder_*.onnx
+
+# 运行产物
+__pycache__/
+*.pyc
+wavs/
+logs/
+
+# 编辑器
+.vscode/
+.idea/
